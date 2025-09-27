@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Travel - Homepage</title>
+</head>
+<body>
+
+    <!-- ================= HEADER SECTION ================= -->
+    <header>
+        <h1>🌍 Welcome to Dream Travel</h1>
+        <hr>
+    </header>
+
+    <!-- ================= INTRODUCTION SECTION ================= -->
+    <!-- Paragraphs with text formatting -->
+    <section id="intro">
+        <h2>About Us</h2>
+        <p>
+            Welcome to <b>Dream Travel</b>, your ultimate guide to the most amazing <i>destinations</i> 
+            around the world. We help you explore new cultures, <u>adventures</u>, and experiences. 
+            Don’t let your dreams be <s>postponed</s>, make them real today!
+        </p>
+        <p>
+            Our goal is to provide <b>affordable</b> and <i>memorable</i> travel experiences.  
+            From breathtaking beaches to <u>majestic mountains</u>, we bring you the best packages at unbeatable prices.  
+        </p>
+        <br>
+    </section>
+
+    <!-- ================= IMAGES SECTION ================= -->
+    <section id="gallery">
+        <h2>Travel Highlights</h2>
+        <p>Check out some exciting travel destinations and activities:</p>
+       <img src="data:image/jpeg;base64,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" alt="">
+    <img src="https://i.ytimg.com/vi/f6RqF2XS1E8/maxresdefault.jpg" alt="AB" height="200">
+    </section>
+
+    <!-- ================= HYPERLINKS SECTION ================= -->
+    <section id="links">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="#contact">Go to Contact Us (Jump Link)</a></li>
+            <li><a href="https://www.lonelyplanet.com" target="_blank">Visit Lonely Planet (External Link)</a></li>
+            <li><a href="index.html">Back to Homepage (Refresh Link)</a></li>
+        </ul>
+        <hr>
+    </section>
+
+    <!-- ================= LISTS SECTION ================= -->
+    <section id="lists">
+        <h2>Travel Info</h2>
+
+        <!-- Ordered List -->
+        <h3>Top 5 Travel Destinations</h3>
+        <ol>
+            <li>Paris, France</li>
+            <li>Bali, Indonesia</li>
+            <li>Tokyo, Japan</li>
+            <li>New York, USA</li>
+            <li>Rome, Italy</li>
+        </ol>
+
+        <!-- Unordered List -->
+        <h3>Travel Essentials to Pack</h3>
+        <ul>
+            <li>Passport & Visa</li>
+            <li>Camera</li>
+            <li>Travel Insurance</li>
+            <li>Comfortable Shoes</li>
+            <li>Snacks & Water</li>
+        </ul>
+
+        <!-- Definition List -->
+        <h3>Travel Terms</h3>
+        <dl>
+            <dt>Itinerary</dt>
+            <dd>A detailed plan of a journey, including destinations and activities.</dd>
+            <dt>Layover</dt>
+            <dd>A stop at an airport between the origin and destination flight.</dd>
+            <dt>Backpacking</dt>
+            <dd>A style of low-cost, independent travel with minimal luggage.</dd>
+        </dl>
+        <hr>
+    </section>
+
+    <!-- ================= TABLE SECTION ================= -->
+    <section id="packages">
+        <h2>Travel Packages</h2>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <th>Destination</th>
+                <th>Price</th>
+                <th>Duration</th>
+            </tr>
+            <tr>
+                <td>Paris, France</td>
+                <td>$1200</td>
+                <td>7 Days</td>
+            </tr>
+            <tr>
+                <td>Bali, Indonesia</td>
+                <td>$950</td>
+                <td>6 Days</td>
+            </tr>
+            <tr>
+                <td>Tokyo, Japan</td>
+                <td>$1500</td>
+                <td>8 Days</td>
+            </tr>
+            <tr>
+                <td>Rome, Italy</td>
+                <td>$1100</td>
+                <td>5 Days</td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@dreamtravel.com</p>
+        <p>Phone: +91 98765 43210</p>
+        <hr>
+    </section>
+
+    <!-- ================= FOOTER SECTION ================= -->
+    <footer>
+        <p>&copy; 2025 Dream Travel. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+🌍 Welcome to Dream Travel
+About Us
+Welcome to Dream Travel, your ultimate guide to the most amazing destinations around the world. We help you explore new cultures, adventures, and experiences. Don’t let your dreams be postponed, make them real today!
+
+Our goal is to provide affordable and memorable travel experiences. From breathtaking beaches to majestic mountains, we bring you the best packages at unbeatable prices.
+
+
+Travel Highlights
+Check out some exciting travel destinations and activities:
+
+ AB
+Quick Links
+Go to Contact Us (Jump Link)
+Visit Lonely Planet (External Link)
+Back to Homepage (Refresh Link)
+Travel Info
+Top 5 Travel Destinations
+Paris, France
+Bali, Indonesia
+Tokyo, Japan
+New York, USA
+Rome, Italy
+Travel Essentials to Pack
+Passport & Visa
+Camera
+Travel Insurance
+Comfortable Shoes
+Snacks & Water
+Travel Terms
+Itinerary
+A detailed plan of a journey, including destinations and activities.
+Layover
+A stop at an airport between the origin and destination flight.
+Backpacking
+A style of low-cost, independent travel with minimal luggage.
+Travel Packages
+Destination	Price	Duration
+Paris, France	$1200	7 Days
+Bali, Indonesia	$950	6 Days
+Tokyo, Japan	$1500	8 Days
+Rome, Italy	$1100	5 Days
+Contact Us
+Email: contact@dreamtravel.com
+
+Phone: +91 98765 43210
+
+© 2025 Dream Travel. All rights reserved.
